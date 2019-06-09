@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>keepass-kpentrytemplates</id>
+    <title>KPEntryTemplates</title>
+    <version>1.8.0.20190608</version>
+    <packageSourceUrl>https://github.com/mitchcapper/KPEntryTemplates</packageSourceUrl>    
+    <authors>mitch.capper</authors>
+    <owners>mitch.capper</owners>
+    <summary>KeePass Entry Templates for custom gui displays of your entries</summary>
+    <description>KPEntryTemplates (KPET) is a plug-in that is supposed to make it easier for KeePass to be used for storing additional things than web logins and extend the built in templating system by providing a UI.</description>
+    <projectUrl>https://github.com/mitchcapper/KPEntryTemplates</projectUrl>
+    <tags>keepass KPEntryTemplates KPET</tags>
+    <copyright>© mitch.capper</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/mitchcapper/KPEntryTemplates/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/mitchcapper/KPEntryTemplates/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="keepass" version="[2.39,3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\KPEntryTemplates\**" target="tools" />
+  </files>
+</package>
