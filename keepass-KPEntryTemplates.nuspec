@@ -5,7 +5,8 @@
     <id>keepass-kpentrytemplates</id>
     <title>KPEntryTemplates</title>
     <version>1.8.0.20190608</version>
-    <packageSourceUrl>https://github.com/mitchcapper/KPEntryTemplates</packageSourceUrl>    
+    <packageSourceUrl>https://github.com/mitchcapper/chocolatey-packages/</packageSourceUrl>
+    <projectSourceUrl>https://github.com/mitchcapper/KPEntryTemplates</projectSourceUrl>
     <authors>mitch.capper</authors>
     <owners>mitch.capper</owners>
     <summary>KeePass Entry Templates for custom gui displays of your entries</summary>
